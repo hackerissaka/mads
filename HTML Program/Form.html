@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> My First page</title>
+
+</head>
+<body >
+<form method="post" action="newHTML.html" enctype="multipart/form-data">
+<table>
+<tr> <td> First Name</td>
+<td><input type="text" name = "fname" value="ratan" maxlength="7" size="30" disabled/></td>
+</tr>
+
+<tr> <td> Last Name</td>
+<td><input type="text" name = "lname" value="manu" readonly/></td>
+</tr>
+
+<tr> <td> Password</td>
+<td><input type="password" name = "lname"/></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" checked/>Male
+<input type="radio" name="gender"/>Female</td>
+</tr>
+
+<tr><td>Skills</td>
+<td><input type="checkbox" name="skills" checked/>java
+<input type="checkbox" name="skills"/>ASP
+<input type="checkbox" name="skills"/>Servlet
+<input type="checkbox" name="skills"/>JSP
+</td>
+</tr>
+
+<tr>
+<td>location</td>
+<td><select name="location">
+<option value=" ">Select Location</option>
+<option value="Bangalore">Bangalore</option> 
+<option value="Punjab">Punjab</option> 
+<option value="Lucknow">Lucknow</option> 
+<option value="Delhi">Delhi</option> 
+<option value="Rajasthan">Rajasthan</option> 
+<option value="Haryana">Haryana</option> 
+<option value="Pune">Pune</option> 
+</td></tr>
+
+<tr><td>Comments</td>
+<td><textarea name="comments">
+</textarea>
+</td></tr>
+<tr>
+<td><input type="submit" value="apply"/>
+<input type="reset" value="clear"/></td>
+</tr>
+
+<tr><td>Resume</td><td><input type="file"/>
+
+</table>
+</form>
+</body>
+
+</html>
